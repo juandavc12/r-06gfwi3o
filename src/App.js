@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
-const Welcome = (props) =>{
-  return <h1>Hola {props.name}</h1>
-}
+import Welcome from './Welcome'
 
 class App extends Component {
   constructor() {
